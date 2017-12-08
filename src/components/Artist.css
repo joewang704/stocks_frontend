@@ -1,0 +1,41 @@
+.Artist-content {
+  padding: 15px;
+  width: 200px;
+}
+
+.Artist-image {
+  width: 200px;
+  height: 200px;
+}
+
+.Artist-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Artist-name {
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.Artist-price {
+  font-size: 30px;
+}
+
+.Artist-perc {
+  font-size: 12px;
+}
+
+.green {
+  color: #21ce99;
+}
+
+.red {
+  color: red;
+}
+
+.Artist-buy {
+}

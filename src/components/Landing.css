@@ -1,0 +1,57 @@
+.container {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.artists {
+  color: #333;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 40%;
+}
+
+.trending-title {
+  font-size: 30px;
+  width: 100%;
+  text-align: left;
+}
+
+.jumbotron {
+  /*background-color: #edf0f5;*/
+  width: 100%;
+  height: 60%;
+  display: flex;
+  font-family: "Lato";
+  background-color: #21ce99;
+  color: #efefef;
+}
+
+.jumbotron-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-form {
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.h3 {
+  font-size: 30px;
+}

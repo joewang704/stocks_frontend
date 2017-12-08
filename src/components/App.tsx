@@ -1,20 +1,21 @@
-import * as React from 'react';
-import './App.css';
-import Album from './Album';
+import * as React from 'react'
+import Landing from './Landing'
+import Browse from './Browse'
+import Header from './Header'
+import { Switch, Route } from 'react-router-dom'
 
 class App extends React.Component {
   render() {
-    const albumTitles: string[] = ['chance', 'coldplay', 'halsey',
-      'owlcity', 'pinkfloyd', 'watsky', 'weeknd'];
-
     return (
-      <div className="App">
-        <div className="App-content">
-          {albumTitles.map(title => <Album title={title} key={title} />)}
-        </div>
+      <div className="full-screen">
+        <Header/>
+        <Switch>
+          <Route exact path="/" component={Landing}/>
+          <Route exact path="/browse" component={Browse}/>
+        </Switch>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
